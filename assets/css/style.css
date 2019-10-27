@@ -86,7 +86,7 @@ img{
     display: inline-block
 }
 
-footer{
+.footer{
     border-top: 8px solid #4aa5;
     background-color: #444444;
     height:40px;
@@ -95,5 +95,23 @@ footer{
     margin-left: 0;
     margin-bottom: 0;
     text-align: center;
+
+}
+form{ 
+    width:960px;
+    height:100%;
+    padding: 40px 70px;
+    background-color: #fff;
+    border: soild 2px #ddd;
+
+}
+.contactform {
+    width:960px;
+    height:100%;
+    margin: 25px 50px;
+    background-color: #fff;
+    border: soild 2px #ddd;
+
+
 
 }
