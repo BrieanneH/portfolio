@@ -46,6 +46,19 @@ body {
 
 }
 
+.portfoliobody {
+    
+    width:100%x;
+    height:100%;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/circles-light.png"); 
+    position: center;
+    padding: 0;
+    margin: 0 auto;
+
+
+}
+
 h2 {
     font-size: 25px;
     margin: 25px;
@@ -86,15 +99,17 @@ img{
     display: inline-block
 }
 
-.footer{
-    border-top: 8px solid #4aa5;
+footer{
+    position: fixed;
+    border-top: 8px #4aa5 solid;
     background-color: #444444;
+    font-size:10px;
+    text-align: center;
     height:40px;
     width: 100%;
-    text-align: center;
     margin-left: 0;
     margin-bottom: 0;
-    text-align: center;
+   
 
 }
 form{ 
